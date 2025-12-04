@@ -1,0 +1,36 @@
+@theme {
+  --color-yellow: #e2bf04;
+}
+
+.hero {
+  background-image: url("/src/assets/hero.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.open-section {
+  background-image: url("/src/assets/open.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.earn-section {
+  background-image: url("/src/assets/earn.png");
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 1024px) {
+  .navbar-section {
+    background-image: url("/src/assets/navbar.png");
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (max-width: 1024px) {
+  .vendor {
+    background-image: url("/src/assets/sos_premiere.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+  }
+}
